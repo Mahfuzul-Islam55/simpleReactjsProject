@@ -8,7 +8,6 @@ class Summary extends Component {
     render() {
         return (
             <Fragment>
-
                 <Container fluid={true} className="SummaryBanner SummarySection p-0" >
                     <div className="SummaryBannerOverlay">
                         <Container className="text-center">
@@ -17,7 +16,6 @@ class Summary extends Component {
                                     <Row className="countSection">
                                          <Col>
                                              <h1 className="countNumber">
-
                                                  <CountUp start={0} end={100}>
                                                      {({ countUpRef, start }) => (
                                                          <VisibilitySensor onChange={start} delayedCall>
@@ -25,17 +23,12 @@ class Summary extends Component {
                                                          </VisibilitySensor>
                                                      )}
                                                  </CountUp>
-
-
-
                                              </h1>
                                              <h4 className="countTitle">Total Projects</h4>
                                              <hr className="bg-white w-25"/>
                                          </Col>
-
                                         <Col>
                                             <h1 className="countNumber">
-
                                                 <CountUp start={0} end={100}>
                                                     {({ countUpRef, start }) => (
                                                         <VisibilitySensor onChange={start} delayedCall>
@@ -43,15 +36,12 @@ class Summary extends Component {
                                                         </VisibilitySensor>
                                                     )}
                                                 </CountUp>
-
                                             </h1>
                                             <h4 className="countTitle">Total Clients</h4>
                                             <hr className="bg-white w-25"/>
                                         </Col>
-
                                     </Row>
                                 </Col>
-
                                 <Col lg={4} md={6} sm={12}>
                                     <Card className="workCard">
                                         <Card.Body>
@@ -65,7 +55,6 @@ class Summary extends Component {
                                         </Card.Body>
                                     </Card>
                                 </Col>
-
                             </Row>
                         </Container>
                     </div>
