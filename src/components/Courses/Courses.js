@@ -32,8 +32,6 @@ class Courses extends Component {
                                     </Col>
                                 </Row>
                             </Col>
-
-
                             <Col lg={6} md={12} sm={12}>
                                 <Row>
                                     <Col lg={6} md={6} sm={12}>
@@ -46,8 +44,6 @@ class Courses extends Component {
                                     </Col>
                                 </Row>
                             </Col>
-
-
                             <Col lg={6} md={12} sm={12}>
                                 <Row>
                                     <Col lg={6} md={6} sm={12}>
@@ -60,13 +56,10 @@ class Courses extends Component {
                                     </Col>
                                 </Row>
                             </Col>
-
-
                         </Row>
                     </Container>
             </Fragment>
         );
     }
 }
-
 export default Courses;
