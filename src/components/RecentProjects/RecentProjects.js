@@ -1,6 +1,5 @@
 import React, {Component,Fragment} from 'react';
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
-
 class RecentProjects extends Component {
     render() {
         return (
@@ -20,11 +19,8 @@ class RecentProjects extends Component {
                                     <Button variant="primary">Details</Button>
                                 </Card.Body>
                             </Card>
-
                         </Col>
-
                         <Col sm={12} md={6} lg={4}>
-
                             <Card className="projectCard">
                                 <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png" />
                                 <Card.Body>
@@ -37,9 +33,7 @@ class RecentProjects extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-
                         <Col sm={12} md={6} lg={4}>
-
                             <Card className="projectCard">
                                 <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png" />
                                 <Card.Body>
@@ -52,13 +46,10 @@ class RecentProjects extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-
                     </Row>
                 </Container>
-                
             </Fragment>
         );
     }
 }
-
 export default RecentProjects;
