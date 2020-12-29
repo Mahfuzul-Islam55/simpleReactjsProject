@@ -29,7 +29,7 @@ class TopNavigation extends Component {
         return (
             <Fragment>
                 <Navbar className={this.state.navBarBack} fixed="top" collapseOnSelect expand="lg" variant="dark">
-                    <Navbar.Brand className={this.state.navBarTitle}><img src={this.state.navBarLogo}/>Mahfuzul Islam</Navbar.Brand>
+                    <Navbar.Brand className={this.state.navBarTitle}><img src={this.state.navBarLogo}/> Rabbil Hasan</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
