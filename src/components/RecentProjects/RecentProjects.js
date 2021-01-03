@@ -7,7 +7,7 @@ class RecentProjects extends Component {
                 <Container className="text-center">
                     <h1 className="serviceMainTitle">RECENT PROJECTS</h1>
                     <Row>
-                        <Col sm={12} md={6} lg={4}>
+                        <Col sm={12} md={6} lg={4} className="p-2">
                             <Card className="projectCard">
                                 <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png" />
                                 <Card.Body>
@@ -20,7 +20,7 @@ class RecentProjects extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col sm={12} md={6} lg={4}>
+                        <Col sm={12} md={6} lg={4} className="p-2">
                             <Card className="projectCard">
                                 <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png" />
                                 <Card.Body>
@@ -33,7 +33,7 @@ class RecentProjects extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col sm={12} md={6} lg={4}>
+                        <Col sm={12} md={6} lg={4} className="p-2">
                             <Card className="projectCard">
                                 <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png" />
                                 <Card.Body>
