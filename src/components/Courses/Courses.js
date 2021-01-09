@@ -11,7 +11,7 @@ class Courses extends Component {
                             <Col lg={6} md={12} sm={12} className="p-2">
                                 <Row>
                                     <Col lg={6} md={6} sm={12}>
-                                        <img className="courseImg" src="https://planetdigitalmedia.com/img/services/playing.png"/>
+                                        <img className="courseImg" src="category1.jpg"/>
                                     </Col>
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>
@@ -23,7 +23,7 @@ class Courses extends Component {
                             <Col lg={6} md={12} sm={12} className="p-2">
                                 <Row>
                                     <Col lg={6} md={6} sm={12}>
-                                        <img className="courseImg"  src="https://planetdigitalmedia.com/img/services/playing.png"/>
+                                        <img className="courseImg"  src="category1.jpg"/>
                                     </Col>
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>
@@ -35,7 +35,7 @@ class Courses extends Component {
                             <Col lg={6} md={12} sm={12} className="p-2">
                                 <Row>
                                     <Col lg={6} md={6} sm={12}>
-                                        <img className="courseImg"  src="https://planetdigitalmedia.com/img/services/playing.png"/>
+                                        <img className="courseImg"  src="category1.jpg"/>
                                     </Col>
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>
@@ -47,7 +47,7 @@ class Courses extends Component {
                             <Col lg={6} md={12} sm={12} className="p-2">
                                 <Row>
                                     <Col lg={6} md={6} sm={12}>
-                                        <img className="courseImg"  src="https://planetdigitalmedia.com/img/services/playing.png"/>
+                                        <img className="courseImg"  src="category1.jpg"/>
                                     </Col>
                                     <Col lg={6} md={6} sm={12}>
                                         <h5 className="text-justify courseTitle">Web Development</h5>

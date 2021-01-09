@@ -34,7 +34,7 @@ class Video extends Component {
                 <Modal size="lg" show={this.state.show} onHide={this.modalClose}>
                     <Modal.Body>
                         <Player>
-                            <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+                            <source src="https://www.youtube.com/watch?v=S50nHNN3Abo" />
                             <BigPlayButton position="center"/>
                         </Player>
 
