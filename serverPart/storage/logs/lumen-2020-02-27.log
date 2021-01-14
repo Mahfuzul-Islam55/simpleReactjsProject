@@ -1,0 +1,44 @@
+[2020-02-27 17:58:02] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "route:clear" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    route:list in C:\xampp\htdocs\react_site\blog\vendor\symfony\console\Application.php:670
+Stack trace:
+#0 C:\xampp\htdocs\react_site\blog\vendor\symfony\console\Application.php(236): Symfony\Component\Console\Application->find('route:clear')
+#1 C:\xampp\htdocs\react_site\blog\vendor\symfony\console\Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\react_site\blog\vendor\illuminate\console\Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\react_site\blog\vendor\laravel\lumen-framework\src\Console\Kernel.php(115): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\react_site\blog\artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"route:clear\" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    route:list at C:\\xampp\\htdocs\eact_site\\blog\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('route:clear')
+#1 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(115): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\eact_site\\blog\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2020-02-27 17:58:26] local.ERROR: Symfony\Component\Console\Exception\NamespaceNotFoundException: There are no commands defined in the "config" namespace. in C:\xampp\htdocs\react_site\blog\vendor\symfony\console\Application.php:598
+Stack trace:
+#0 C:\xampp\htdocs\react_site\blog\vendor\symfony\console\Application.php(651): Symfony\Component\Console\Application->findNamespace('config')
+#1 C:\xampp\htdocs\react_site\blog\vendor\symfony\console\Application.php(236): Symfony\Component\Console\Application->find('config:clear')
+#2 C:\xampp\htdocs\react_site\blog\vendor\symfony\console\Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\react_site\blog\vendor\illuminate\console\Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\react_site\blog\vendor\laravel\lumen-framework\src\Console\Kernel.php(115): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\xampp\htdocs\react_site\blog\artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"config\" namespace. at C:\\xampp\\htdocs\eact_site\\blog\\vendor\\symfony\\console\\Application.php:598)
+[stacktrace]
+#0 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\symfony\\console\\Application.php(651): Symfony\\Component\\Console\\Application->findNamespace('config')
+#1 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('config:clear')
+#2 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\eact_site\\blog\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(115): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xampp\\htdocs\eact_site\\blog\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
