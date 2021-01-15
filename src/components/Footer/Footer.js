@@ -13,14 +13,14 @@ class Footer extends Component {
                     <Row>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Follow Me</h1>
-                            <a className="socialLink" href="#"><FontAwesomeIcon  icon={faFacebook} /> Facebook</a><br/>
+                            <a className="socialLink" target={null} href="#"><FontAwesomeIcon  icon={faFacebook} /> Facebook</a><br/>
                             <a className="socialLink" href="#"><FontAwesomeIcon  icon={faYoutube} /> YouTube</a>
                         </Col>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Address</h1>
-                            <p className="serviceDescription" >42,B Block, Surma Abasik ,Akhalia ,Sylhet</p>
-                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faEnvelope} /> mahfuzulislam@gmail.com</p>
-                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faPhone} /> +8801724626044</p>
+                            <p className="serviceDescription" >42,Block B,Road No:3,Surma Abasik,Akhalia,Sylhet</p>
+                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faEnvelope} /> mahfuzul.com</p>
+                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faPhone} /> +88017********</p>
                         </Col>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Information</h1>
@@ -37,7 +37,7 @@ class Footer extends Component {
                 </Container>
 
                 <Container fluid={true} className="text-center copyrightSection">
-                    <a className="copyrightLink" href="#">mahfuzulislam&copy; 2019-2020</a>
+                    <a className="copyrightLink" href="#">mahfuz.com &copy; 2019-2020</a>
                 </Container>
 
             </Fragment>

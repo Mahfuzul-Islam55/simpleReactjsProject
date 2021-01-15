@@ -39,9 +39,9 @@ class ContactSection extends Component {
 
                         <Col lg={6} md={6} sm={12}>
                             <h1 className="serviceName">Discuss Now</h1>
-                            <p className="serviceDescription" >42,B block, Surma Abasik,Akhalia,Sylhet</p>
-                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faEnvelope} /> mahfuzulislam@gmail.com</p>
-                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faPhone} />01724626044</p>
+                            <p className="serviceDescription" >42,Block B,Road No 3,Surma Abasik,Akhalia,Sylhet</p>
+                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faEnvelope} /> mahfuzulislam.com</p>
+                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faPhone} /> +88017********</p>
                         </Col>
                     </Row>
                 </Container>

@@ -53,9 +53,9 @@ class ClientReview extends Component {
                         <div>
                             <Row className="text-center justify-content-center">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="circleImg" src="category1.jpg"/>
+                                    <img className="circleImg" src="image/category1.jpg"/>
                                     <h1 className="serviceName">Web Development</h1>
-                                    <p className="serviceDescription" >irst i analysis the requirement of project. According to the requirement i make a proper technical analysis, then i build a software architecture. According to the planning i start coding</p>
+                                    <p className="serviceDescription" >I analys the requirement of project. According to the requirement i make a proper technical analysis, then i build a software architecture. According to the planning i start coding</p>
                                 </Col>
                             </Row>
                         </div>
@@ -64,9 +64,9 @@ class ClientReview extends Component {
                         <div>
                             <Row className="text-center justify-content-center">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="circleImg" src="category1.jpg"/>
+                                    <img className="circleImg" src="image/category1.jpg"/>
                                     <h1 className="serviceName">Web Development</h1>
-                                    <p className="serviceDescription">irst i analysis the requirement of project. According to the requirement i make a proper technical analysis, then i build a software architecture. According to the planning i start coding</p>
+                                    <p className="serviceDescription">I analys the requirement of project. According to the requirement i make a proper technical analysis, then i build a software architecture. According to the planning i start coding</p>
                                 </Col>
                             </Row>
                         </div>
@@ -75,9 +75,9 @@ class ClientReview extends Component {
                         <div>
                             <Row className="text-center justify-content-center">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="circleImg" src="category1.jpg"/>
+                                    <img className="circleImg" src="image/category1.jpg"/>
                                     <h1 className="serviceName">Web Development</h1>
-                                    <p className="serviceDescription">irst i analysis the requirement of project. According to the requirement i make a proper technical analysis, then i build a software architecture. According to the planning i start coding</p>
+                                    <p className="serviceDescription">I analys the requirement of project. According to the requirement i make a proper technical analysis, then i build a software architecture. According to the planning i start coding</p>
                                 </Col>
                             </Row>
                         </div>
