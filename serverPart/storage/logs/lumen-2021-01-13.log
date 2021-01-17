@@ -244,3 +244,53 @@ Stack trace:
 #26 F:\\API\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
+[2021-01-13 13:01:32] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "make:HomeEtcModel" is not defined.
+
+Did you mean one of these?
+    make:command
+    make:controller
+    make:event
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:policy
+    make:provider
+    make:resource
+    make:seeder
+    make:test in F:\API\vendor\symfony\console\Application.php:670
+Stack trace:
+#0 F:\API\vendor\symfony\console\Application.php(236): Symfony\Component\Console\Application->find('make:HomeEtcMod...')
+#1 F:\API\vendor\symfony\console\Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 F:\API\vendor\illuminate\console\Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 F:\API\vendor\laravel\lumen-framework\src\Console\Kernel.php(115): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 F:\API\artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:HomeEtcModel\" is not defined.
+
+Did you mean one of these?
+    make:command
+    make:controller
+    make:event
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:policy
+    make:provider
+    make:resource
+    make:seeder
+    make:test at F:\\API\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 F:\\API\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('make:HomeEtcMod...')
+#1 F:\\API\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 F:\\API\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 F:\\API\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(115): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 F:\\API\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
